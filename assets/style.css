@@ -266,6 +266,15 @@ section {
     gap:2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
+    display: flex;
+}
+
+.project-img{
+    height: 400px;
+    width: 250px;
+    border-radius: 0;
+    margin-left: 10px;
+    object-fit: cover;
 }
 .about-details-container{
     justify-content: center;
