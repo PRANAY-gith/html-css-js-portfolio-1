@@ -204,7 +204,8 @@ section {
 /*icons*/
 .icon{
     cursor: pointer;
-    height: 2rem;
+    height: 3rem;
+    width: 3rem;padding
     
 }
 
@@ -423,4 +424,74 @@ footer{
 
 footer p {
     text-align: center;
+}
+
+
+
+@media (max-width:991px)
+{   
+    #profile
+    {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #about
+    {
+        flex: 0 0 100%;
+        max-width: 80%;
+    }
+
+    .details-container
+    {
+        flex: 0 0 100%;
+        max-width: 75%;
+    }
+
+
+    #profile
+    {   
+        
+        padding-top:0px;
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    .btn-container
+    {
+        margin-top: 30px;
+    }
+
+    .icon
+    {
+        margin-top: 60px;
+    }
+
+    .main-picture
+    {
+        width: 150px;
+        height: 150px;
+        margin-left: 14px;
+    }
+
+    .hamburger-icon span
+    {
+        flex: 0 0 100%;
+        max-width: 40%;
+        
+    }
+
+    .semi-picture
+    {
+        display: none;
+    }
+
+    .icon
+    {
+        width: 50px;
+        height: 50px;
+        margin-left:25px ;
+    }
+   
+
 }
